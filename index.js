@@ -9,11 +9,10 @@ function scuberGreetingForFeet(distance) {
     return 'Please input a valid distance.';
   }
 }
-
-
-function ternaryCheckCity(){
-  // Write your code here!
+function ternaryCheckCity(city) {
+  return city === 'NYC' ? 'Ok, sounds good.' : 'No go.';
 }
+
 
 function switchOnCharmFromTip(){
   // Write your code here!
